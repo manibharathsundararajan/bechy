@@ -1,4 +1,4 @@
-#include<conio.h>
+#include<stdio.h>
 void main()
 {
 int i,j,a[10],n,t;
@@ -19,5 +19,5 @@ a[j]=t;
 }
 }
 }
-printf("%d \n %d",a[0],a[n]);
+printf("%d \n %d",a[0],a[n-1]);
 }
